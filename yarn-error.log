@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/lib/nodejs/node-v16.18.0-linux-x64/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/lib/nodejs/node-v16.18.0-linux-x64/bin:/home/stephan/.local/bin:/home/stephan/.sdkman/candidates/springboot/current/bin:/home/stephan/.cargo/bin:/home/stephan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/simulide/bin:/home/stephan/go:/home/stephan/go/src/project_MP/bin:/home/stephan/autres/firefox:/home/stephan/scripts:/home/stephan/go/bin:/usr/local/go/bin:/usr/local/simulide/bin:/home/stephan/go:/home/stephan/go/src/project_MP/bin:/home/stephan/autres/firefox:/home/stephan/scripts
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jsc-android/-/jsc-android-250230.2.1.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:141408:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "apptest",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~46.0.16",
+      "expo-status-bar": "~1.4.0",
+      "react": "18.0.0",
+      "react-native": "0.69.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
