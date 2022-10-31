@@ -1,31 +1,35 @@
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
+
+const width = Dimensions.get("window").width; //full width
+const height = Dimensions.get("window").height; //full height
 
 export const HomeScreenStyle = StyleSheet.create({
   main: {
     overflowX: "hidden",
-    width: "100%",
+    width: width,
   },
   textXs: {
-    fontSize: "0.75rem",
-    lineHeight: "1.5rem",
+    fontSize: 13,
+    lineHeight: 15,
   },
   flexRow: {
     diplay: "flex",
     flexDirection: "row",
   },
   textXl: {
-    fontSize: "1.25rem",
-    lineHeight: "1.75rem",
+    fontSize: 18,
+    lineHeight: 20,
   },
   textBold: {
-    fontWeight: 700,
+    fontWeight: "bold",
   },
   textGray: {
     color: "rgba(156, 163, 175, 9)",
   },
   mx4: {
-    marginLeft: "1rem",
-    marginRight: "1rem",
+    marginLeft: 7,
+    marginRight: 7,
   },
 });
 
@@ -37,14 +41,14 @@ export const headView = StyleSheet.create({
     justifyContent: "space-between",
   },
   headerView: {
-    paddingTop: "0.35rem",
-    paddingBottom: "0.75rem",
-    paddingLeft: "0.35rem",
-    paddingRight: "0.35rem",
+    paddingTop: 20,
+    paddingBottom: 15,
+    paddingLeft: 10,
+    paddingRight: 10,
   },
   imageLogo: {
-    width: "2.5rem",
-    height: "2.5rem",
+    width: 40,
+    height: 40,
   },
   textHeader: {},
 });
@@ -52,11 +56,11 @@ export const headView = StyleSheet.create({
 export const SeachViewStyle = StyleSheet.create({
   seacchForm: {
     // ...headView.flexRowCenter,
-    padding: "0.75rem",
+    padding: 10,
+    paddingRight: 0,
     backgroundColor: "rgb(229, 231, 235)",
   },
   inputStyle: {
-    outline: "none",
     border: "none",
   },
   searchView: {
