@@ -86,8 +86,8 @@ export default function DeliveryScreen() {
         initialRegion={{
           latitude: restaurant.lat,
           longitude: restaurant.long,
-          latitudeDelta: 0.1,
-          longitudeDelta: 0.1,
+          latitudeDelta: 0.01,
+          longitudeDelta: 0.01,
         }}
         className="flex-1"
         style={{ marginTop: -28, zIndex: 0 }}
