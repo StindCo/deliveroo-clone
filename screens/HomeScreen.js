@@ -45,9 +45,10 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView
+    className="firstPage"
       style={[
         {
-          backgroundColor: "#fff",
+          backgroundColor: "blue",
         },
         Platform.select({
           android: {
