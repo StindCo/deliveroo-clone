@@ -23,6 +23,7 @@ export const HomeScreenStyle = StyleSheet.create({
   },
   textBold: {
     fontWeight: "bold",
+    color: "red",
   },
   textGray: {
     color: "rgba(156, 163, 175, 9)",
