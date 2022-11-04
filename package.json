@@ -48,6 +48,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.12.9",
+        "cypress": "^10.11.0",
         "jest-expo": "^46.0.1",
         "tailwindcss": "^3.2.0"
     },
