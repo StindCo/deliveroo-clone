@@ -7,7 +7,21 @@
         "android": "expo start --android",
         "ios": "expo start --ios",
         "web": "expo start --web",
-        "test": "jest"
+        "test": "jest",
+        "e2e": "cypress run",
+        "e2e:chrome": "cypress run --browser chrome",
+        "e2e:record": "cypress run --record",
+        "e2e:record:chrome": "cypress run --record --browser chrome",
+        "e2e:record:edge": "cypress run --record --browser edge",
+        "e2e:record:firefox": "cypress run --record --browser firefox",
+        "e2e:record:parallel": "cypress run --record --parallel",
+        "cy:verify": "cypress verify",
+        "cy:info": "cypress info",
+        "cy:version": "cypress version",
+        "cy:cache:list": "cypress cache list",
+        "cy:run": "cypress run",
+        "cy:run:record": "cypress run --record",
+        "cy:open": "cypress open"
     },
     "jest": {
         "preset": "jest-expo",
